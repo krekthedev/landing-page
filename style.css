@@ -1,0 +1,112 @@
+
+body {
+    font-family: sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 100px 24px 200px;
+    background-color: #1f2937;
+    color: white;
+    height: 480px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.hero-heading{
+    font-size: 48px;
+    font-weight: 900;
+margin-bottom: 0;
+}
+
+.hero-info{
+
+}
+
+
+.hero-img{
+    align-self: center;
+    flex: 1;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.two{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 200px 0px 300px;
+}
+
+.two-title{
+    padding: 50px 0;
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #1f2937;
+
+
+}
+
+.two-container{
+    display: flex;
+    gap: 32px;
+}
+
+.two-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-image{
+    border-radius: 20px;
+    border: 5px solid rgb(79, 134, 253);
+}
+.two-text{
+    text-align: center;
+    margin-top: 8px;
+}
+.three{
+    height: 440px;
+}
+
+.four{
+    height: 480px;
+}
